@@ -1,0 +1,1 @@
+{"epoch": 2, "progress": 25.15991471215352, "prec": 0.9140625, "ce_loss": 0.2706835865974426, "ewc_loss": 0.0, "loss": 0.2706835865974426, "_timestamp": 1651051188, "_runtime": 265, "_step": 3400, "_wandb": {"runtime": 265}}

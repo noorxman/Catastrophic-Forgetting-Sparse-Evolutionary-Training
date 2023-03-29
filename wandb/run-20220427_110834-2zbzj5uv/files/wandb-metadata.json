@@ -1,0 +1,16 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-04-27T09:08:36.067452",
+    "startedAt": "2022-04-27T09:08:34.618566",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/vincentvanengers/Documents/ut/q3/it/Overcoming-Catastrophic-Forgetting-in-Sparse-Evolutionairy-Training/main.py",
+    "codePath": "main.py",
+    "host": "eduvpn106067.mobiel.utwente.nl",
+    "username": "vincentvanengers",
+    "executable": "/Users/vincentvanengers/Pvenvs/it_project/bin/python3"
+}
