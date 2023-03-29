@@ -1,27 +1,13 @@
-# pytorch-ewc
-Adaptation of the unofficial PyTorch implementation of DeepMind's paper to combine SET and EWC [Overcoming Catastrophic Forgetting, PNAS 2017](https://arxiv.org/abs/1612.00796) for the Information Theory course.
+# Overcoming Catastrophic Forgetting with Sparse Evolutionary Training
+This code adopts the implementation of Elastic Weight Consolidation [Overcoming Catastrophic Forgetting, PNAS 2017](https://arxiv.org/abs/1612.00796) by Ha Junsoo [@kuc2477](https://github.com/kuc2477) and combines it with [Sparse Evolutionary Training](https://www.nature.com/articles/s41467-018-04316-3) (SET) to investigates what the effects of dynamic sparsity are on EWC and whether Sparse Evolutionary Training (SET) can reduce parameter count while still overcoming catastrophic forgetting. For more information refer to the [paper](EWC-SET_paper.pdf) created for the Information Theory & Statistics course. 
 
-![graphic-image](./arts/graphic-image.jpg)
-
+<img width="300" src="pictures/graphic-image.jpg" /> <img width="400" src="pictures/set.jpg" />
 ## Results
 
-Continual Learning **without EWC** (*left*) and **with EWC** (*right*).
+Continual Learning **EWC without SET** (*left*) and **EWC with SET** (*right*).
 
-<img width="300" src="arts/precision-plain.png" /> <img width="300" src="arts/precision-consolidated.png" />
-
-
-## Installation
-```
-$ git clone https://github.com/kuc2477/pytorch-ewc && cd pytorch-ewc
-$ pip install -r requirements.txt
-```
-
-
-## CLI
-Implementation CLI is provided by `main.py`
+<img width="600" src="pictures/SET_acc.png" />
 
 ## Reference
 - [Overcoming Catastrophic Forgetting, PNAS 2017](https://arxiv.org/abs/1612.00796)
-
-## Author
-Ha Junsoo / [@kuc2477](https://github.com/kuc2477) / MIT License
+- [Sparse Evolutionary Training](https://www.nature.com/articles/s41467-018-04316-3)
