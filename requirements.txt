@@ -23,5 +23,5 @@ jupyter_nbextensions_configurator
 colorama
 tqdm
 lmdb
-requests
+requests>=2.31.0
 fake-useragent
